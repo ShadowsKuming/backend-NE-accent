@@ -29,14 +29,18 @@ public class RankingService {
 
         List<UserPerformance> userPerformanceList = new ArrayList<>();
         for (GamePerformance gamePerformance : gamePerformanceList) {
-            User user = userRepository.getReferenceById((long)gamePerformance.getId());
-            UserPerformance userPerformance =
-                    new UserPerformance(gamePerformanceList.indexOf(gamePerformance)+1,user.getUsername()
-                            ,gamePerformance.getScore()
-                            ,gamePerformance.getRight_answer_num_borough()
-                            ,gamePerformance.getRight_answer_num_county());
+            if(gamePerformance.getScore()>0){
+                // check if it is a valid player
+                User user = userRepository.getReferenceById((long)gamePerformance.getId());
+                int accuracy = (gamePerformance.getRight_answer_num_county()
+                        +gamePerformance.getRight_answer_num_borough())*100/(GameService.gameNumber*2);
+                UserPerformance userPerformance =
+                        new UserPerformance(gamePerformanceList.indexOf(gamePerformance)+1,user.getUsername()
+                                ,gamePerformance.getScore()
+                                ,accuracy);
 
-            userPerformanceList.add(userPerformance);
+                userPerformanceList.add(userPerformance);
+            }
         }
 
         return userPerformanceList;

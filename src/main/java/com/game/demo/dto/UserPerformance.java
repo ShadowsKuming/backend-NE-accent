@@ -4,15 +4,13 @@ public class UserPerformance {
     private int ranking;
     private String userName;
     private int scores;
-    private int boroughCorrect;
-    private int CountyCorrect;
+    private double accuracy;
 
-    public UserPerformance(int ranking, String userName, int scores, int boroughCorrect, int countyCorrect) {
+    public UserPerformance(int ranking, String userName, int scores, double accuracy) {
         this.ranking = ranking;
         this.userName = userName;
         this.scores = scores;
-        this.boroughCorrect = boroughCorrect;
-        CountyCorrect = countyCorrect;
+        this.accuracy = accuracy;
     }
 
     public int getRanking() {
@@ -39,19 +37,11 @@ public class UserPerformance {
         this.scores = scores;
     }
 
-    public int getBoroughCorrect() {
-        return boroughCorrect;
+    public double getAccuracy() {
+        return accuracy;
     }
 
-    public void setBoroughCorrect(int boroughCorrect) {
-        this.boroughCorrect = boroughCorrect;
-    }
-
-    public int getCountyCorrect() {
-        return CountyCorrect;
-    }
-
-    public void setCountyCorrect(int countyCorrect) {
-        CountyCorrect = countyCorrect;
+    public void setAccuracy(double accuracy) {
+        this.accuracy = accuracy;
     }
 }
