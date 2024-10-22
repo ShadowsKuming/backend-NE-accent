@@ -1,6 +1,6 @@
 package com.game.demo.dto;
 
-import com.game.demo.entity.database.UserAnswer;
+import com.game.demo.entity.UserAnswer;
 
 public class AnswerRecordDTO {
     private int questionNumber;

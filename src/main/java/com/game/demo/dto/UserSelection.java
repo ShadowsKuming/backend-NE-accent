@@ -1,4 +1,4 @@
-package com.game.demo.entity;
+package com.game.demo.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

@@ -3,13 +3,10 @@ package com.game.demo.service;
 import com.game.demo.dao.AnswerRecordRepository;
 import com.game.demo.dao.GamePerformanceRepository;
 import com.game.demo.dao.UserRepository;
-import com.game.demo.dto.AnswerRecordDTO;
-import com.game.demo.entity.GameResult;
-import com.game.demo.entity.database.GamePerformance;
-import com.game.demo.entity.database.UserAnswerId;
+import com.game.demo.otd.GameResult;
+import com.game.demo.entity.GamePerformance;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**

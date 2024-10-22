@@ -1,6 +1,6 @@
 package com.game.demo.dao;
 
-import com.game.demo.entity.database.GamePerformance;
+import com.game.demo.entity.GamePerformance;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

@@ -1,7 +1,7 @@
 package com.game.demo.controller;
 
 import com.game.demo.common.Result;
-import com.game.demo.entity.UserSelection;
+import com.game.demo.dto.UserSelection;
 import com.game.demo.service.GameService;
 import org.springframework.web.bind.annotation.*;
 

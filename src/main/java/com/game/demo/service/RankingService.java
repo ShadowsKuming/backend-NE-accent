@@ -3,9 +3,9 @@ package com.game.demo.service;
 
 import com.game.demo.dao.GamePerformanceRepository;
 import com.game.demo.dao.UserRepository;
-import com.game.demo.dto.UserPerformance;
-import com.game.demo.entity.database.GamePerformance;
-import com.game.demo.entity.database.User;
+import com.game.demo.otd.UserPerformance;
+import com.game.demo.entity.GamePerformance;
+import com.game.demo.entity.User;
 
 import org.springframework.stereotype.Service;
 

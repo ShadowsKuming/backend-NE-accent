@@ -1,7 +1,6 @@
 package com.game.demo.dao;
 
-import com.game.demo.entity.database.StimuliAnswer;
-import org.springframework.data.domain.Pageable;
+import com.game.demo.entity.StimuliAnswer;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

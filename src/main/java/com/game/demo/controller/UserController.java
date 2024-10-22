@@ -1,7 +1,7 @@
 package com.game.demo.controller;
 
 import com.game.demo.common.Result;
-import com.game.demo.entity.UserFormData;
+import com.game.demo.dto.UserFormData;
 import com.game.demo.service.UserService;
 import org.springframework.web.bind.annotation.*;
 

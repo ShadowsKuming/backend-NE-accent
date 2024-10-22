@@ -1,4 +1,4 @@
-package com.game.demo.entity.database;
+package com.game.demo.entity;
 
 import java.io.Serializable;
 import java.util.Objects;

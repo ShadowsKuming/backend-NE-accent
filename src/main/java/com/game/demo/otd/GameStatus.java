@@ -1,4 +1,4 @@
-package com.game.demo.entity;
+package com.game.demo.otd;
 
 public class GameStatus {
     private int questionNum;

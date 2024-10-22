@@ -1,6 +1,4 @@
-package com.game.demo.entity;
-
-import com.fasterxml.jackson.annotation.JsonProperty;
+package com.game.demo.dto;
 
 /**
  * The UserFormData class is a data transfer object (DTO) that represents the user information

@@ -1,8 +1,8 @@
 package com.game.demo.service;
 
 import com.game.demo.dao.UserRepository;
-import com.game.demo.entity.UserFormData;
-import com.game.demo.entity.database.User;
+import com.game.demo.dto.UserFormData;
+import com.game.demo.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

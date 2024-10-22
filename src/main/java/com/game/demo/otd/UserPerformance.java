@@ -1,4 +1,4 @@
-package com.game.demo.dto;
+package com.game.demo.otd;
 
 public class UserPerformance {
     private int ranking;
