@@ -208,7 +208,7 @@ public class GameService {
         Resource audioResource = new ClassPathResource("Audio/" + audioFile);
 
         // Return the relative URL to access the audio file with a ".wav" extension.
-        return "/audio/" + audioResource.getFilename() + ".wav";
+        return "/Audio/" + audioResource.getFilename() + ".wav";
     }
 
 }
